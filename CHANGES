@@ -1,0 +1,60 @@
+2017-11-05  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/decset.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2016-06-21  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/decstbm.py, tests/apc.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-04-15  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/dch.py, tests/xterm_winops.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-04-14  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* escutil.py, tests/vt.py, tests/ris.py, tests/ff.py, tests/lf.py, tests/nel.py, tests/ri.py, tests/ind.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-03-08  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* README.txt, escargs.py, escio.py, tests/decstr.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-03-07  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/decset_tite_inhibit.py, tests/save_restore_cursor.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-03-01  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/da2.py, tests/dcs.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-02-23  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/cub.py, tests/cr.py, tests/bs.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-02-22  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/ansirc.py, esctest.py, tests/cha.py, tests/cup.py, tests/hvp.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-02-21  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/change_special_color.py, tests/reset_special_color.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-02-20  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/cuf.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
+2015-01-14  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* LICENSE, esc.py, esccmd.py, esclog.py, esctypes.py, tests/__init__.py, tests/cbt.py, tests/change_color.py, tests/change_dynamic_color.py, tests/cht.py, tests/cnl.py, tests/cpl.py, tests/cud.py, tests/cuu.py, tests/da.py, tests/decaln.py, tests/decbi.py, tests/deccra.py, tests/decdc.py, tests/decdsr.py, tests/decera.py, tests/decfi.py, tests/decfra.py, tests/decic.py, tests/decid.py, tests/decrc.py, tests/decrqm.py, tests/decrqss.py, tests/decscl.py, tests/decsed.py, tests/decsel.py, tests/decsera.py, tests/dl.py, tests/ech.py, tests/ed.py, tests/el.py, tests/fill_rectangle.py, tests/hpa.py, tests/hpr.py, tests/hts.py, tests/ich.py, tests/il.py, tests/manipulate_selection_data.py, tests/pm.py, tests/rep.py, tests/reset_color.py, tests/rm.py, tests/s8c1t.py, tests/sd.py, tests/sm.py, tests/sm_title.py, tests/sos.py, tests/su.py, tests/tbc.py, tests/vpa.py, tests/vpr.py, tests/xterm_save.py:
+	copy from https://github.com/gnachman/iTerm2/tree/689265c2ad82bf957dee71220b02aed8c15ee2ac
+
