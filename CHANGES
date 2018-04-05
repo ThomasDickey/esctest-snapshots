@@ -1,3 +1,11 @@
+2018-04-05  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/decset.py: works for me
+
+	* tests/decscl.py: works for me (DECSCL except for the "expected" RIS)
+
+	* tests/deccra.py: works for me - but his expected value was wrong
+
 2018-04-04  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/da.py:
