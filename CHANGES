@@ -1,3 +1,54 @@
+2018-04-08  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	try to restore screen between maximizing (would need a composite test too)
+
+	* esccmd.py: another code
+
+	* tests/xterm_winops.py:
+	try adding timing fixes (doesn't seem to help, but doesn't hurt)
+
+	* tests/xterm_winops.py:
+	hmm - no progress, but I see that some "Passes" are due to starting from
+	a maximized state.
+
+	* tests/xterm_winops.py: still 3 (problem with iconify/deiconfy?)
+
+	* tests/xterm_winops.py: 3...
+
+	* tests/xterm_winops.py: 4...
+
+	* tests/xterm_winops.py: 5...
+
+	* tests/xterm_winops.py: 6...
+
+	* tests/xterm_winops.py:
+	partial repair for fvwm - down to 7 failures (no change for XQuartz)
+
+	* escutil.py: add functions for new xterm controls
+
+	* esccmd.py: add codes for new xterm controls
+
+	* tests/xterm_winops.py:
+	partly improved: I found that XQuartz is ignoring the maximize horz/vert
+	calls though it honors fullscreen.  When switching to fvwm session, I
+	get a bunch of regressions due to confusing pixels and chars.  Check this
+	in, to focus on those...
+
+	* tests/xterm_winops.py: another bogus test
+
+	* tests/xterm_winops.py: 2 bogus tests fixed.
+
+	* tests/xterm_winops.py: explain
+
+	* tests/xterm_winops.py: fixed test
+
+	* tests/ris.py: fix
+
+	* tests/decset.py: corrected test
+
+	* tests/save_restore_cursor.py: xterm #328 has fix for wraptest -
+
 2018-04-06  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/decset.py, tests/rep.py: fixed:332
