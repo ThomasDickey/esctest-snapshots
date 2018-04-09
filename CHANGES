@@ -1,3 +1,23 @@
+2018-04-09  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/decdc.py: perhaps he needs a better test...
+
+	* tests/decfi.py, tests/decbi.py: clarified
+
+	* tests/cht.py: test was wrong - fix
+
+	* tests/bs.py: align with xterm #332
+
+	* tests/dl.py: fixed
+
+	* esc.py: add BEL, so I can send it in a test to pinpoint trace
+
+	* tests/xterm_winops.py: comment-out - some fail, will revisit
+
+	* tests/sd.py: works now :-)
+
+	* tests/ich.py: works for me
+
 2018-04-08  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py:
