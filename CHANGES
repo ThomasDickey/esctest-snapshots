@@ -1,3 +1,45 @@
+2018-04-10  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/decrqm.py, esccmd.py: drop DECVSSM
+
+	* escutil.py: finish the last fix...
+
+	* tests/decdsr.py: levels
+
+	* escutil.py: fix inconsistent naming
+
+	* tests/decscl.py, tests/decrqss.py: levels
+
+	* esccmd.py:
+	DECRQSS not found in vt320 manual (which is PDF only - no searching)
+
+	* tests/decrqm.py, tests/vt.py, tests/vpr.py, tests/vpa.py, tests/su.py, tests/sos.py, tests/sm.py, tests/ris.py, esccmd.py, tests/s8c1t.py, tests/sd.py, tests/rm.py, tests/ri.py, tests/rep.py, tests/pm.py, tests/nel.py, tests/lf.py, tests/ind.py, tests/il.py, tests/ich.py, tests/hvp.py, tests/hpr.py, tests/hpa.py, tests/el.py, tests/ff.py, tests/ed.py, tests/ech.py, tests/dl.py, tests/decstbm.py, tests/decstr.py:
+	levels
+
+	* tests/decset.py, tests/decsera.py: levelsdecsel.py
+
+	* tests/decsel.py, tests/decsed.py, tests/decscl.py, tests/decaln.py, tests/dcs.py, tests/apc.py, tests/dch.py, tests/cup.py, tests/cuf.py:
+	levels
+
+	* tests/cub.py, tests/cr.py, tests/cpl.py, tests/cnl.py, tests/cbt.py, tests/cht.py, tests/cha.py, tests/bs.py:
+	level
+
+	* tests/save_restore_cursor.py: check levels
+
+	* tests/decrqm.py: filter out some of the "known bug" DECRQM
+
+	* escutil.py, esccmd.py: better
+
+	* escutil.py: better.
+
+	* escutil.py: can't do DECRQCRA in a vt100...
+
+	* tests/da.py, tests/decrqss.py: trim
+
+	* tests/decrqss.py: better
+
+	* tests/da.py: first cut/workable DA response
+
 2018-04-09  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/decdc.py: perhaps he needs a better test...
