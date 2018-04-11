@@ -1,3 +1,13 @@
+2018-04-11  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/deccra.py, tests/decdc.py, tests/decera.py, tests/decic.py, tests/decscl.py, tests/decset.py, tests/rep.py:
+	not-xterm
+
+	* tests/xterm_winops.py:
+	python functions need parenthese - George pointed that out, and pylint too
+
+	* tests/da2.py: match xterm's default behavior
+
 2018-04-10  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/decrqm.py, esccmd.py: drop DECVSSM
