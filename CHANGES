@@ -1,3 +1,24 @@
+2018-04-14  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/save_restore_cursor.py: tidy
+
+	* tests/decbi.py: use double-quotes for docstring
+
+	* tests/decfi.py, tests/decdc.py: docstring
+
+	* tests/decbi.py: comments vs docstring
+
+	* tests/decset.py: remove obsolete comment
+
+	* tests/xterm_winops.py: remove redundant reset
+
+	* tests/ris.py, tests/decset.py, tests/rep.py, tests/sd.py:
+	remove comment vs xterm
+
+	* tests/decset.py: no blank before docstring
+
+	* tests/decdsr.py: fix a symbol conflict
+
 2018-04-12  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* escio.py, tests/dl.py, tests/hpa.py, tests/hvp.py, tests/ich.py, tests/sd.py, tests/ff.py, tests/ech.py, tests/ed.py, tests/el.py, tests/lf.py, tests/reset_color.py, tests/reset_special_color.py, tests/tbc.py, tests/vpa.py, tests/vpr.py, tests/decset.py, tests/decstbm.py, tests/decstr.py, tests/decscl.py, tests/decsed.py, tests/decsel.py, tests/decdsr.py, tests/decera.py, tests/decfi.py, tests/decfra.py, tests/decic.py, tests/decid.py, tests/decrqm.py, tests/decrqss.py, tests/il.py, tests/ris.py, tests/rm.py, tests/s8c1t.py, tests/sm_title.py, tests/vt.py, tests/xterm_winops.py, tests/rep.py, tests/su.py, tests/decbi.py, tests/deccra.py, tests/decdc.py, tests/dcs.py, tests/decaln.py, tests/dch.py, tests/cub.py, tests/cuf.py, tests/cup.py, tests/da2.py, tests/cr.py, tests/cha.py, tests/change_special_color.py, tests/change_dynamic_color.py, tests/change_color.py, tests/cbt.py, tests/bs.py, tests/ansirc.py, escutil.py, esclog.py, esc.py:
