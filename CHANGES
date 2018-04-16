@@ -1,3 +1,11 @@
+2018-04-15  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	Nachman's objecting to use of char-sizes when he asked for pixels.
+	Start refactoring by using an if-statement to restore his original
+	version (except for a couple of cases where the naming wasn't consistent,
+	including one where the name was incorrect - seen with pylint).
+
 2018-04-14  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/save_restore_cursor.py: tidy
