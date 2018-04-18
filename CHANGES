@@ -1,3 +1,26 @@
+2018-04-17  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/cht.py: document test_CHT_IgnoresScrollingRegion
+
+	* tests/bs.py: explain reverse-wrap versus margins
+
+	* tests/xterm_winops.py: fix per Nachman comment:
+	- Move the call to unmaximize before the assertion to improve the odds of it happening in:
+	  * test_XtermWinops_MaximizeWindow_Horizontally
+	  * test_XtermWinops_MaximizeWindow_Vertically
+
+	* escutil.py: change commented-out LogInfo to a LogDebug
+
+	* tests/xterm_winops.py: fix per Nachman comment:
+	- In test_XtermWinops_MaximizeWindow_HorizontallyAndVertically,
+	move esccmd.XTERM_WINOPS(esccmd.WINOP_MAXIMIZE, esccmd.WINOP_MAXIMIZE_EXIT)
+	to before the assertions. If they fail the window will be stuck maximized.
+
+2018-04-16  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* LICENSE, README.txt:
+	update to 2018/04/16 version from https://github.com/gnachman/esctest
+
 2018-04-15  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py:
