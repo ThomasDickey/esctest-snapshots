@@ -416,7 +416,9 @@ class XtermWinopsTests(object):
   def test_XtermWinops_ResizeChars_DefaultWidth(self):
     if escargs.args.expected_terminal == "xterm":
       original_size = GetScreenSize()
-      desired_size = original_size
+      display_size = GetDisplaySize()
+      desired_size = Size(original_size.width(),
+                          self.average_height(original_size, display_size))
 
       esccmd.XTERM_WINOPS(esccmd.WINOP_RESIZE_CHARS,
                           desired_size.height())
