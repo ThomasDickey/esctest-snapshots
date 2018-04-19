@@ -1,3 +1,10 @@
+2018-04-19  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	change desired size in test_XtermWinops_ResizeChars_DefaultWidth and
+	test_XtermWinops_ResizeChars_DefaultHeight to use average vs display size
+	for consistency with other xterm-tests
+
 2018-04-18  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py:
