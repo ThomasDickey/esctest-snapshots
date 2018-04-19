@@ -1,3 +1,30 @@
+2018-04-18  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	factor out average_width() and average_height(), fix whitespace per pylint
+
+	* tests/xterm_winops.py:
+	use absolute difference in some assert's for consistency, per Nachman comment
+
+	* tests/sd.py:
+	cite relevant standard for module docstring, fix whitespace per pylint
+
+	* tests/save_restore_cursor.py:
+	add docstring to test_SaveRestoreCursor_AltVsMain and
+	test_SaveRestoreCursor_Wrap, and fix whitespace per pylint
+
+	* tests/ris.py:
+	add docstring to test_RIS_ResetDECCOLM, fix whitespace per pylint
+
+	* tests/rep.py, tests/decfi.py, tests/decdc.py:
+	cite relevant standard for module docstring, fix whitespace per pylint
+
+	* tests/decdc.py:
+	quote the relevant standard for test_DECDC_IsNoOpWhenCursorBeginsOutsideScrollRegion
+
+	* tests/decbi.py:
+	cite relevant standard for test_DECBI_LeftOfMargin and test_DECBI_WholeScreenScrolls
+
 2018-04-17  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/cht.py: document test_CHT_IgnoresScrollingRegion
