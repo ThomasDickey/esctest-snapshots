@@ -1,3 +1,17 @@
+2018-04-21  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	use checkActualPixelSize() for the remaining xterm-resizing tests involving
+	resizing by pixels
+
+	* tests/xterm_winops.py:
+	refactor test_XtermWinops_ResizePixels_BothParameters() using new function
+	checkActualPixelSize()
+
+	* escutil.py: add GetFrameSizePixels()
+
+	* escutil.py: cache the char/screen sizes, fix whitespace per pylint
+
 2018-04-20  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py:
