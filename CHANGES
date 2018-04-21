@@ -1,3 +1,12 @@
+2018-04-20  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	the remaining failed-test was due to inconsistent max_error value.
+
+	* tests/xterm_winops.py:
+	add/use delayAfterMove, delayAfterIcon, delayAfterResize, making all but
+	the 2-way maximize work consistently with icewm
+
 2018-04-19  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py:
