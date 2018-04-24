@@ -1,3 +1,21 @@
+2018-04-23  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py:
+	tighten pixel error-limit to 1 cell; seems to work with quartz-wm
+
+	* escutil.py:
+	add/use can_query_shell_size(), which will allow tightening the error-limits
+	for xterm's window operations
+
+	* escutil.py, tests/xterm_winops.py:
+	change level of new debug-log calls
+
+	* tests/xterm_winops.py:
+	reducing delay after iconify caused a test-failure - undo that one.
+
+	* tests/decdsr.py, tests/deccra.py, tests/decbi.py, tests/decaln.py, tests/dch.py, tests/da.py, tests/cup.py, tests/cr.py, tests/cha.py, tests/change_special_color.py, tests/apc.py, esctypes.py, esctest.py, escio.py, esccmd.py, escargs.py:
+	fix whitespace per pylint
+
 2018-04-22  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py: factor out check_for_shrinkage()
