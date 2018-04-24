@@ -1,3 +1,20 @@
+2018-04-24  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/sm_title.py, tests/__init__.py, tests/ed.py, tests/deccra.py, tests/vpr.py, tests/vt.py, tests/su.py, tests/sos.py, tests/nel.py, tests/pm.py, tests/ri.py, tests/rm.py, tests/s8c1t.py, tests/sm.py, tests/il.py, tests/ind.py, tests/lf.py, tests/fill_rectangle.py, tests/hpr.py, tests/hvp.py, tests/ich.py, tests/ff.py, tests/el.py, tests/ech.py, tests/dl.py, tests/decstr.py, tests/decstbm.py, tests/decset.py, tests/decsera.py, tests/decic.py, tests/decsel.py, tests/decsed.py, tests/decscl.py, tests/decrqm.py:
+	fix whitespace per pylint
+
+	* tests/xterm_winops.py:
+	add documentation for the utility functions used for xterm-tests
+
+	* README.txt:
+	the section on xterm configuration options was incomplete.  Adapted from
+	cfg-esctest/cfg-esctest-wide scripts.
+
+	* README.txt:
+	cite DEC standards documentation, which is used in xterm versus the
+	programmer reference manuals which give insight into differences between
+	terminal models but are not authoritative.  Also mention an old bug-fix.
+
 2018-04-23  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py:
