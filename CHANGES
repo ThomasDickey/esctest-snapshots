@@ -1,3 +1,19 @@
+2018-04-25  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/xterm_winops.py, escutil.py: stylistic change per Nachman
+
+	* tests/ris.py:
+	trim comment for iTerm2 vs ALTBUF, overlooked change in master by Nachman
+
+	* tests/decset.py:
+	remove an overlooked/obsolete comment for test_DECSET_DECLRMM()
+
+	* escutil.py:
+	if the terminal is not xterm, GetScreenSizePixels() will just return a
+	fixed size, suggested by Nachman
+
+	* escutil.py: stylistic change per Nachman
+
 2018-04-24  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/sm_title.py, tests/__init__.py, tests/ed.py, tests/deccra.py, tests/vpr.py, tests/vt.py, tests/su.py, tests/sos.py, tests/nel.py, tests/pm.py, tests/ri.py, tests/rm.py, tests/s8c1t.py, tests/sm.py, tests/il.py, tests/ind.py, tests/lf.py, tests/fill_rectangle.py, tests/hpr.py, tests/hvp.py, tests/ich.py, tests/ff.py, tests/el.py, tests/ech.py, tests/dl.py, tests/decstr.py, tests/decstbm.py, tests/decset.py, tests/decsera.py, tests/decic.py, tests/decsel.py, tests/decsed.py, tests/decscl.py, tests/decrqm.py:
