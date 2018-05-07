@@ -10,9 +10,6 @@ ACTION_RUN = "run"
 ACTION_LIST_KNOWN_BUGS = "list-known-bugs"
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--disable-xterm-checksum-bug",
-                    help="Don't use buggy parameter order for DECRQCRA",
-                    action="store_true")
 parser.add_argument("--include",
                     help="Regex for names of tests to run.",
                     default=".*")

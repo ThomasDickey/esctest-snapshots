@@ -386,12 +386,7 @@ def DECRC():
 
 def DECRQCRA(Pid, Pp=None, rect=None):
   """Compute the checksum (16-bit sum of ordinals) in a rectangle."""
-  # xterm versions 314 and earlier incorrectly expect the Pid in the second
-  # argument and ignore Pp.
-  # For the time being, iTerm2 is compatible with the bug.
   AssertVTLevel(4, "DECRQCRA")
-  if not escargs.args.disable_xterm_checksum_bug:
-    Pid, Pp = Pp, Pid
 
   params = [Pid]
 
