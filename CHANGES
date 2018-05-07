@@ -1,3 +1,12 @@
+2018-05-07  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* esccmd.py:
+	restore a chunk needed for xterm - made this pull request #2
+
+	* README.txt, escargs.py, esccmd.py, escutil.py, tests/bs.py, tests/decbi.py, tests/xterm_winops.py:
+	Rsync to George Nachman's updates in
+	https://github.com/gnachman/esctest/tree/914d5f7e4840e548f0fc30f2f15f25e3078b4a00
+
 2018-04-25  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* tests/xterm_winops.py, escutil.py: stylistic change per Nachman

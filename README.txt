@@ -17,10 +17,11 @@ http://www.vt100.net/docs/vt510-rm/
 
 DEC's standard for video terminals is here:
 http://www.bitsavers.org/pdf/dec/standards/EL-SM070-00_DEC_STD_070_Video_Systems_Reference_Manual_Dec91.pdf
-The xterm control sequences document mentions a few instances where the later
-programmer reference manuals do not agree with the standard, apparently due to
-editorial blunders.  In cases where the programmer reference manuals differ
-from the video standards document, the latter is used.
+
+Some of the later programmer reference manuals do not agree with the standard in
+what appears to be an editorial blunder, as noted in the xterm control sequences 
+document. In cases where programmer manuals differ from with the video standards
+document, the latter is used.
 
 All tests are automatic; no user interaction is required. As a consequence, some
 control sequences cannot be tested. For example, it is impossible to examine the
@@ -30,10 +31,9 @@ cursor position; these form the bulk of the tests.
 
 Notes on xterm
 --------------
-Several tests give different results depending on whether Unicode support is
-compiled into xterm or not.  Other tests fail if more than 16 colors are
-configured.  As of xterm patch 332, two sets of configuration options are used
-for testing with these scripts.
+These tests are sensitive to whether xterm was compiled with Unicode support and
+if it supports more than 16 colors. As of xterm patch 332, there are two sets of
+configuration options:
 
 Use these options when testing without Unicode:
 
@@ -85,11 +85,6 @@ Selects the action that the test framework performs.
   Do not run any tests; instead, print the list of matching tests (per --include
   and --expected-terminal) that have known bugs. This is useful when looking for
   looking for bugs to fix in your terminal.
-
---disable-xterm-checksum-bug
-xterm's implementation of DECRQCRA (fixed in patch 315, early 2015) contained a
-bug.  DECRQCRA is essential to these tests.  By default, a workaround for the
-bug is used in case an old version of xterm is tested.
 
 --include=regex
 Only tests whose name matches "regex" will be run.
