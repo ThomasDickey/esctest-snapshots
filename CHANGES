@@ -1,3 +1,7 @@
+2018-08-09  George.Nachman
+
+	* tests/cht.py: iTerm2 added CHT support
+
 2018-05-07  Thomas E. Dickey  <dickey@invisible-island.net>
 
 	* esccmd.py:
