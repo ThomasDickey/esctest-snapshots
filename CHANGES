@@ -1,3 +1,17 @@
+2018-09-18  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* README.txt: document --xterm-checksum
+
+	* escargs.py: add --xterm-checksum option
+
+	* esc.py: modify empty() to use option --xterm-checksum
+
+	* escutil.py:
+	if xterm is (expected to) return DEC-compatible checksums, transform the
+	result to make it compatible with esctest's assumptions.
+
+	* escio.py, tests/cht.py, esccmd.py, tests/decfi.py: pylint fixes
+
 2018-08-21  George.Nachman
 
 	* tests/sgr.py:
