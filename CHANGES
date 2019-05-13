@@ -1,3 +1,15 @@
+2019-05-13  Thomas E. Dickey  <dickey@invisible-island.net>
+
+	* tests/change_special_color.py, tests/reset_special_color.py:
+	Updated tests for "special characters" for xterm #345.  The tests mixed OSC 4
+	and OSC 5 to avoid having to know the number of "ANSI" colors which was needed
+	for the OSC 4 response, and happened to "work" because the OSC 5 response was
+	sent in OSC 4 format, contrary to documentation.  In xterm #345, the OSC 5
+	query returns an OSC 5 format.  Some additional work would be needed to make
+	this test OSC 4.
+
+	* README.txt, tests/decset.py: fix a typo
+
 2018-12-28  George.Nachman
 
 	* README.txt: Fix incorrect line length
